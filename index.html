@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salem Academy</title>
+    <link rel="shortcut icon" href="imgs/FAV.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="js/all.min.js"></script>
+    <!-- font -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap"
+        rel="stylesheet"> -->
+
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <!-- Container wrapper -->
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand me-2" href="https://mdbgo.com/">
+                    <img src="imgs/Salem Logo.png" height="35" alt="MDB Logo" loading="lazy"
+                        style="margin-top: -1px;" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav mb-2 mb-lg-0 mx-auto w-50">
+                        <li class="nav-item dropdown dropdown-hover position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Mega menu
+                            </a>
+                            <!-- Dropdown menu -->
+                            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                                    border-top-right-radius: 0;">
+                                <div class="container">
+                                    <div class="row my-4">
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Lorem
+                                                    ipsum</a>
+                                                <a href="" class="list-group-item list-group-item-action">Dolor sit</a>
+                                                <a href="" class="list-group-item list-group-item-action">Amet
+                                                    consectetur</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Adipisicing
+                                                    elit</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Explicabo
+                                                    voluptas</a>
+                                                <a href="" class="list-group-item list-group-item-action">Perspiciatis
+                                                    quo</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Laudantium
+                                                    maiores</a>
+                                                <a href="" class="list-group-item list-group-item-action">Provident
+                                                    dolor</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Iste
+                                                    quaerato</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Est iure</a>
+                                                <a href=""
+                                                    class="list-group-item list-group-item-action">Praesentium</a>
+                                                <a href="" class="list-group-item list-group-item-action">Laboriosam</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Saepe</a>
+                                                <a href="" class="list-group-item list-group-item-action">Vel alias</a>
+                                                <a href="" class="list-group-item list-group-item-action">Sunt
+                                                    doloribus</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cum
+                                                    dolores</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-hover position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Mega menu
+                            </a>
+                            <!-- Dropdown menu -->
+                            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                                                            border-top-right-radius: 0;">
+                                <div class="container">
+                                    <div class="row my-4">
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Lorem
+                                                    ipsum</a>
+                                                <a href="" class="list-group-item list-group-item-action">Dolor sit</a>
+                                                <a href="" class="list-group-item list-group-item-action">Amet
+                                                    consectetur</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Adipisicing
+                                                    elit</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Explicabo
+                                                    voluptas</a>
+                                                <a href="" class="list-group-item list-group-item-action">Perspiciatis
+                                                    quo</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Laudantium
+                                                    maiores</a>
+                                                <a href="" class="list-group-item list-group-item-action">Provident
+                                                    dolor</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Iste
+                                                    quaerato</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Est iure</a>
+                                                <a href=""
+                                                    class="list-group-item list-group-item-action">Praesentium</a>
+                                                <a href="" class="list-group-item list-group-item-action">Laboriosam</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Saepe</a>
+                                                <a href="" class="list-group-item list-group-item-action">Vel alias</a>
+                                                <a href="" class="list-group-item list-group-item-action">Sunt
+                                                    doloribus</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cum
+                                                    dolores</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-hover position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Mega menu
+                            </a>
+                            <!-- Dropdown menu -->
+                            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                                                            border-top-right-radius: 0;">
+                                <div class="container">
+                                    <div class="row my-4">
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Lorem
+                                                    ipsum</a>
+                                                <a href="" class="list-group-item list-group-item-action">Dolor sit</a>
+                                                <a href="" class="list-group-item list-group-item-action">Amet
+                                                    consectetur</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Adipisicing
+                                                    elit</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Explicabo
+                                                    voluptas</a>
+                                                <a href="" class="list-group-item list-group-item-action">Perspiciatis
+                                                    quo</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Laudantium
+                                                    maiores</a>
+                                                <a href="" class="list-group-item list-group-item-action">Provident
+                                                    dolor</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Iste
+                                                    quaerato</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Est iure</a>
+                                                <a href=""
+                                                    class="list-group-item list-group-item-action">Praesentium</a>
+                                                <a href="" class="list-group-item list-group-item-action">Laboriosam</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Saepe</a>
+                                                <a href="" class="list-group-item list-group-item-action">Vel alias</a>
+                                                <a href="" class="list-group-item list-group-item-action">Sunt
+                                                    doloribus</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cum
+                                                    dolores</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-hover position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Mega menu
+                            </a>
+                            <!-- Dropdown menu -->
+                            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                                    border-top-right-radius: 0;">
+                                <div class="container">
+                                    <div class="row my-4">
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Lorem
+                                                    ipsum</a>
+                                                <a href="" class="list-group-item list-group-item-action">Dolor sit</a>
+                                                <a href="" class="list-group-item list-group-item-action">Amet
+                                                    consectetur</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Adipisicing
+                                                    elit</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Explicabo
+                                                    voluptas</a>
+                                                <a href="" class="list-group-item list-group-item-action">Perspiciatis
+                                                    quo</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Laudantium
+                                                    maiores</a>
+                                                <a href="" class="list-group-item list-group-item-action">Provident
+                                                    dolor</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Iste
+                                                    quaerato</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Est iure</a>
+                                                <a href=""
+                                                    class="list-group-item list-group-item-action">Praesentium</a>
+                                                <a href="" class="list-group-item list-group-item-action">Laboriosam</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Saepe</a>
+                                                <a href="" class="list-group-item list-group-item-action">Vel alias</a>
+                                                <a href="" class="list-group-item list-group-item-action">Sunt
+                                                    doloribus</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cum
+                                                    dolores</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-hover position-static">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Mega menu
+                            </a>
+                            <!-- Dropdown menu -->
+                            <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                                                    border-top-right-radius: 0;">
+                                <div class="container">
+                                    <div class="row my-4">
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Lorem
+                                                    ipsum</a>
+                                                <a href="" class="list-group-item list-group-item-action">Dolor sit</a>
+                                                <a href="" class="list-group-item list-group-item-action">Amet
+                                                    consectetur</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Adipisicing
+                                                    elit</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Explicabo
+                                                    voluptas</a>
+                                                <a href="" class="list-group-item list-group-item-action">Perspiciatis
+                                                    quo</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Laudantium
+                                                    maiores</a>
+                                                <a href="" class="list-group-item list-group-item-action">Provident
+                                                    dolor</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Iste
+                                                    quaerato</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Est iure</a>
+                                                <a href=""
+                                                    class="list-group-item list-group-item-action">Praesentium</a>
+                                                <a href="" class="list-group-item list-group-item-action">Laboriosam</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="list-group list-group-flush">
+                                                <a href="" class="list-group-item list-group-item-action">Cras justo
+                                                    odio</a>
+                                                <a href="" class="list-group-item list-group-item-action">Saepe</a>
+                                                <a href="" class="list-group-item list-group-item-action">Vel alias</a>
+                                                <a href="" class="list-group-item list-group-item-action">Sunt
+                                                    doloribus</a>
+                                                <a href="" class="list-group-item list-group-item-action">Cum
+                                                    dolores</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul> <!-- Left links -->
+
+
+                    <div class="d-flex align-items-center justify-content-lg-end">
+                        <button type="button" class="btn btn-link px-3 me-2" id="login-btn">
+                            Login
+                        </button>
+                        <button type="button" class="btn btn-primary me-3 rounded-pill">
+                            Join Now
+                        </button>
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+
+        <!-- modal -->
+        <div class="modal fade text-center" id="modalLoginForm" tabindex="-1" role="dialog"
+            aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <img src="imgs/icon.png" width="50" alt="">
+                        <h4 class="modal-title w-100 font-weight-bold">Sign in to Salem Academy</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa-solid fa-x fa-lg"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <img src="imgs/header.png" width="300" alt="">
+                        <div class="md-form my-4">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                </div>
+                                <input type="email" id="defaultForm-email" class="form-control validate"
+                                    placeholder="Email address">
+                            </div>
+                        </div>
+
+                        <div class="md-form mb-4">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                </div>
+                                <input type="password" id="defaultForm-pass" class="form-control validate"
+                                    placeholder="Password">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-primary rounded-pill">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- header -->
+
+        <div class="container my-5 py-lg-5 gap-lg-3 flex-wrap">
+            <div class="row -flex justify-content-center align-items-center">
+                <div class="text py-lg-5 my-5 col-md-7">
+                    <h1 class="main-title">Resources that <span>improve your grades by 2x</span></h1>
+                    <p class="my-4 fs-5 pe-5">Concise revision notes, 10,000 past papers, 70,000 exam questions and
+                        more...
+                        all
+                        tailored to your
+                        exams.</p>
+                    <ul class="list-unstyled d-flex gap-3 links">
+                        <li><a href="">link 1</a></li>
+                        <li><a href="">link 2</a></li>
+                        <li><a href="">link 3</a></li>
+                        <li><a href="">link 4</a></li>
+                    </ul>
+                </div>
+                <div class="img col-md-5">
+                    <img src="https://www.savemyexams.co.uk/_next/image/?url=https%3A%2F%2Fcdn.savemyexams.co.uk%2Fimages%2Fscreenshots%2F01-study-resources-menu.webp&w=640&q=75"
+                        alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- trust -->
+
+    <section class="trust text-center p-5">
+        <div class="container pt-5">
+            <h2 class="display-md-6 fw-bold">Trusted by students at top schools</h2>
+            <p>Excellent <span class="mx-2"><i class="fa-sharp fa-solid fa-star"></i><i
+                        class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                        class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></span><i
+                    class="fa-sharp fa-solid fa-star"></i>Trustpilot
+            </p>
+            <div class="row justify-content-center align-items-center my-5 gap-lg-3">
+                <div class="col-md-4 col-lg-2 my-2 my-md-5">
+                    <div class="img">
+                        <img class="mx-auto d-block"
+                            src="https://www.savemyexams.co.uk/_next/image/?url=https%3A%2F%2Fcdn.savemyexams.co.uk%2Fimages%2Fschools%2Feton-college-crest-small.webp&w=128&q=75"
+                            alt="">
+                    </div>
+                    <p class="my-3">Eton College</p>
+                </div>
+                <div class="col-md-4 col-lg-2 my-2 my-md-5">
+                    <div class="img">
+                        <img class="mx-auto d-block"
+                            src="https://www.savemyexams.co.uk/_next/image/?url=https%3A%2F%2Fcdn.savemyexams.co.uk%2Fimages%2Fschools%2Fharrow-school-small.webp&w=96&q=75"
+                            alt="">
+                    </div>
+                    <p class="my-3">Harrow School</p>
+                </div>
+                <div class="col-md-4 col-lg-2 my-2 my-md-5">
+                    <div class="img">
+                        <img class="mx-auto d-block"
+                            src="https://www.savemyexams.co.uk/_next/image/?url=https%3A%2F%2Fcdn.savemyexams.co.uk%2Fimages%2Fschools%2Fwycombe-abbey-school-small.webp&w=96&q=75"
+                            alt="">
+                    </div>
+                    <p class="my-3">Wycombe Abbey School</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- steps -->
+
+    <section class="steps py-5">
+        <div class="container">
+            <div class="row py-5 gap-5 align-items-center ">
+                <div class="text col-md-6 order-md-1">
+                    <h2 class="display-md-6 fw-bold">Step One: Revise</h2>
+                    <p class="my-3 fs-5">Every revision guide is written specifically for that syllabus so you only
+                        revise
+                        what you need
+                        to
+                        know.</p>
+                    <ul>
+                        <li class="lh-lg"><span class="fw-bold">Concise, well-organised notes </span> — written by
+                            expert
+                            teachers and
+                            examiners.</li>
+                        <li class="lh-lg"><span class="fw-bold">Memorable diagrams</span> — perfect for learning key
+                            concepts and
+                            processes</li>
+                        <li class="lh-lg"><span class="fw-bold">Exam tips</span> — insider info shared by examiners and
+                            teachers.</li>
+                        <li class="lh-lg"><span class="fw-bold">Downloadable PDFs</span> — print the notes and learn
+                            offline. Check
+                            out a <a href="">free
+                                sample</a></li>
+                    </ul>
+                </div>
+                <div class="img col-md-5 text-center">
+                    <div class="img">
+                        <img class="img-fluid"
+                            src="https://www.savemyexams.co.uk/_next/image/?url=https%3A%2F%2Fcdn.savemyexams.co.uk%2Fimages%2Fscreenshots%2F02-revision-notes-sheets.webp&w=640&q=75"
+                            alt="">
+                    </div>
+                    <q class="my-3 d-block">These revision notes are a lifesaver — they helped me study the entire IGCSE
+                        chemistry syllabus
+                        in only a week and I
+                        scored an A*!! I love this website!</q>
+                    <p>Charlie, IGCSE Student</p>
+                </div>
+            </div>
+            <div class="row py-5 gap-5 align-items-center ">
+                <div class="text col-md-6 ">
+                    <h2 class="display-md-6 fw-bold">Step Two: Test</h2>
+                    <p class="my-3 fs-5">Test yourself and check your progress using our topic questions, so you know
+                        exactly what to expect on exam day.</p>
+                    <ul>
+                        <li class="lh-lg"><span class="fw-bold">Tailored questions </span> — for specific GCSE, IGCSE,
+                            IB and A Level exams.</li>
+                        <li class="lh-lg"><span class="fw-bold">70,000+ exam questions</span> — organised by topic and
+                            sub-topic.</li>
+                        <li class="lh-lg"><span class="fw-bold">Downloadable</span> — print off your test and work
+                            offline.</li>
+                        <li class="lh-lg"><span class="fw-bold">Easy, Medium and Hard</span> — challenge yourself as
+                            your knowledge improves.</li>
+                    </ul>
+                </div>
+                <div class="img col-md-5 text-center order-md-1">
+                    <div class="img">
+                        <img class="img-fluid"
+                            src="https://www.savemyexams.co.uk/_next/image/?url=https%3A%2F%2Fcdn.savemyexams.co.uk%2Fimages%2Fscreenshots%2F03-click-through-topic-questions.webp&w=640&q=75"
+                            alt="">
+                    </div>
+                    <q class="my-3 d-block">Absolutely loving this website, questions sorted by topic is exactly what I
+                        was looking for! Thank you so much!!!!</q>
+                    <p>Thania, A Level Student</p>
+                </div>
+            </div>
+            <div class="row py-5 gap-5 align-items-center ">
+                <div class="text col-md-6 order-md-1">
+                    <h2 class="display-md-6 fw-bold">Step Three: Improve</h2>
+                    <p class="my-3 fs-5">Check your results. View the model answer for every question, explained by an
+                        expert educator on that subject.</p>
+                    <ul>
+                        <li class="lh-lg"><span class="fw-bold">Worked solutions </span> — see all of the necessary
+                            steps to a perfect answer.</li>
+                        <li class="lh-lg"><span class="fw-bold">10,000+ past papers</span> — get even more insight into
+                            what to expect from your exams.
+                            processes</li>
+                        <li class="lh-lg"><span class="fw-bold">Mark schemes</span> — find out exactly what to include
+                            to get top marks.</li>
+                        <li class="lh-lg"><span class="fw-bold">Videos</span> — explaining many answers.</li>
+                    </ul>
+                </div>
+                <div class="img col-md-5 text-center">
+                    <div class="img">
+                        <img class="img-fluid"
+                            src="https://www.savemyexams.co.uk/_next/image/?url=https%3A%2F%2Fcdn.savemyexams.co.uk%2Fimages%2Fscreenshots%2F04-worked-solutions.webp&w=640&q=75"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experts -->
+
+    <section class="experts py-5 text-center">
+        <div class="container pt-5">
+            <h2 class="display-md-6 fw-bold">Meet our experts</h2>
+            <p class="w-75 mx-auto">Our revision resources are written by teachers and examiners. That means notes,
+                questions by
+                topic and
+                worked solutions
+                that show exactly what the examiners for each specific exam are looking for.</p>
+            <p>We work harder so you can study smarter.</p>
+            <div class="row">
+                <div class="expert col-md-6 col-lg-4 my-lg-5 my-3">
+                    <div class="img">
+                        <img class="img-fluid"
+                            src="https://www.savemyexams.co.uk/_next/image/?url=https%3A%2F%2Fcdn.savemyexams.co.uk%2Fimages%2Fexperts%2Fexpert-jenna-quinn.webp&w=384&q=75"
+                            alt="">
+                    </div>
+                    <div class="text p-3">
+                        <h3 class="my-3">Jenna Quinn: Content</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-circle-check me-3 fa-lg"></i>Head of Content</li>
+                            <li><i class="fa-solid fa-circle-check me-3 fa-lg"></i>10+ years teaching experience</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="expert col-md-6 col-lg-4 my-lg-5 my-3">
+                    <div class="img">
+                        <img class="img-fluid"
+                            src="https://www.savemyexams.co.uk/_next/image/?url=https%3A%2F%2Fcdn.savemyexams.co.uk%2Fimages%2Fexperts%2F01-expert-science-francesca-eardley.webp&w=384&q=75"
+                            alt="">
+                    </div>
+                    <div class="text p-3">
+                        <h3 class="my-3">Francesca Eardley: Science</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-circle-check me-3 fa-lg"></i>Head of Science</li>
+                            <li><i class="fa-solid fa-circle-check me-3 fa-lg"></i>10+ years teaching experience</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="expert col-md-6 col-lg-4 my-lg-5 my-3">
+                    <div class="img">
+                        <img class="img-fluid"
+                            src="https://www.savemyexams.co.uk/_next/image/?url=https%3A%2F%2Fcdn.savemyexams.co.uk%2Fimages%2Fexperts%2F02-expert-maths-lucy-kirkham.webp&w=384&q=75"
+                            alt="">
+                    </div>
+                    <div class="text p-3">
+                        <h3 class="my-3">Lucy Kirkham: Maths</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-circle-check me-3 fa-lg"></i>Head of Maths</li>
+                            <li><i class="fa-solid fa-circle-check me-3 fa-lg"></i>12+ years teaching experience</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- test -->
+
+    <section class="test py-5 text-center">
+        <div class="container ">
+            <h2 class="display-md-6 fw-bold my-3">Members love Save My Exams</h2>
+            <div class="stars my-2">
+                <i class="fa-solid fa-star-sharp fa-2xl"></i>
+                <i class="fa-solid fa-star-sharp fa-2xl"></i>
+                <i class="fa-solid fa-star-sharp fa-2xl"></i>
+                <i class="fa-solid fa-star-sharp fa-2xl"></i>
+                <i class="fa-regular fa-star-sharp-half-stroke fa-2xl"></i>
+            </div>
+            <p>15,000+ reviews </p>
+            <div class="row my-5">
+                <div class="col-lg-4">
+                    <div class="text p-4 my-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eligendi! Necessitatibus
+                            doloribus autem dolores harum voluptate similique, soluta magni vitae porro enim suscipit
+                            quibusdam incidunt consectetur eos nisi ex molestiae.</p>
+                    </div>
+                    <div class="img">
+                        <img src="https://www.savemyexams.co.uk/_next/image/?url=%2Fimages%2Fjoin%2Fprofile-beth.png&w=64&q=75"
+                            alt="">
+                        <h4>Beth</h4>
+                        <p>IGCSE Student</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text p-4 my-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eligendi! Necessitatibus
+                            doloribus autem dolores harum voluptate similique, soluta magni vitae porro enim suscipit
+                            quibusdam incidunt consectetur eos nisi ex molestiae.</p>
+                    </div>
+                    <div class="img">
+                        <img src="https://www.savemyexams.co.uk/_next/image/?url=%2Fimages%2Fjoin%2Fprofile-fathima.png&w=64&q=75"
+                            alt="">
+                        <h4>Beth</h4>
+                        <p>IGCSE Student</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text p-4 my-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eligendi! Necessitatibus
+                            doloribus autem dolores harum voluptate similique, soluta magni vitae porro enim suscipit
+                            quibusdam incidunt consectetur eos nisi ex molestiae.</p>
+                    </div>
+                    <div class="img">
+                        <img src="https://www.savemyexams.co.uk/_next/image/?url=%2Fimages%2Fjoin%2Fprofile-mark.png&w=64&q=75"
+                            alt="">
+                        <h4>Beth</h4>
+                        <p>IGCSE Student</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- resources -->
+
+    <section class="resources py-5 text-center">
+        <div class="container">
+            <h2 class="display-md-6 fw-bold my-3">Get started with our free resources</h2>
+            <p>Choose your exam level</p>
+            <div class="pt-5 row my-md-3 justify-content-center">
+                <div class="col-md-3 col-lg-2 my-3">
+                    <a href="">link 1</a>
+                </div>
+                <div class="col-md-3 col-lg-2 my-3">
+                    <a href="">link 1</a>
+                </div>
+                <div class="col-md-3 col-lg-2 my-3">
+                    <a href="">link 1</a>
+                </div>
+            </div>
+            <div class="row my-md-3 justify-content-center">
+                <div class="col-md-3 col-lg-2 my-3">
+                    <a href="">link 1</a>
+                </div>
+                <div class="col-md-3 col-lg-2 my-3">
+                    <a href="">link 1</a>
+                </div>
+                <div class="col-md-3 col-lg-2 my-3">
+                    <a href="">link 1</a>
+                </div>
+            </div>
+            <div class="row my-md-3 justify-content-center">
+                <div class="col-md-3 col-lg-2 my-3">
+                    <a href="">link 1</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sponsers -->
+
+    <section class="sponsers py-5 text-center">
+        <div class="container">
+            <h2 class="display-md-6 fw-bold my-5">Save My Exams is featured in</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 p-5 col-lg-3">
+                    <img src="https://cdn.savemyexams.co.uk/images/news/forbes-logo.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 p-5 col-lg-3">
+                    <img src="https://cdn.savemyexams.co.uk/images/news/daily-express-logo.svg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-md-6 p-5 col-lg-3">
+                    <img src="https://cdn.savemyexams.co.uk/images/news/metro-logo.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 p-5 col-lg-3">
+                    <img src="https://cdn.savemyexams.co.uk/images/news/the-guardian-logo.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- plan -->
+
+    <section class="plans py-5 text-center">
+        <div class="container">
+            <h2 class="display-md-6 fw-bold my-3">Trusted by 65,000 Students Like You</h2>
+            <p>The most effective and concise revision tools anywhere. Join now to reduce revision time and ace your
+                exams.</p>
+            <div class="row my-5 justify-content-center gap-5">
+                <!-- <div class="plan col-md-6 col-lg-3 p-5">
+                    <h3>Basic</h3>
+                    <p>free forever</p>
+                    <h4>£<span class="display-md-6">0</span>/month</h4>
+                    <p>No sign up required</p>
+                    <ul class="list-unstyled">
+                        <li>Past Papers</li>
+                        <li>10 Revision Notes</li>
+                        <li>Topic Questions</li>
+                        <li>Model Answers</li>
+                        <li>Videos (Maths Only)</li>
+                        <li>Downloadable PDFs</li>
+                    </ul>
+                </div> -->
+                <div class="plan col-md-6 col-lg-3 p-5">
+                    <h3>Basic</h3>
+                    <p>free forever</p>
+                    <h4>£<span class="display-md-6">0</span>/month</h4>
+                    <p>No sign up required</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Past Papers</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>10 Revision Notes</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Topic Questions</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Model Answers</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Videos (Maths Only)</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Downloadable PDFs</li>
+                    </ul>
+                    <a href="">Join Now</a>
+                </div>
+                <div class="plan col-md-6 col-lg-3 p-5">
+                    <h3>Basic</h3>
+                    <p>free forever</p>
+                    <h4>£<span class="display-md-6">0</span>/month</h4>
+                    <p>No sign up required</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Past Papers</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>10 Revision Notes</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Topic Questions</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Model Answers</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Videos (Maths Only)</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Downloadable PDFs</li>
+                    </ul>
+                    <a href="">Join Now</a>
+                </div>
+                <div class="plan col-md-6 col-lg-3 p-5">
+                    <h3>Basic</h3>
+                    <p>free forever</p>
+                    <h4>£<span class="display-md-6">0</span>/month</h4>
+                    <p>No sign up required</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Past Papers</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>10 Revision Notes</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Topic Questions</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Model Answers</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Videos (Maths Only)</li>
+                        <li><i class="fa-solid fa-circle-check me-2"></i>Downloadable PDFs</li>
+                    </ul>
+                    <a href="">Join Now</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row text-center text-lg-start">
+                <div class="col-md-12 col-lg-3 mb-5 mb-lg-0 text-center text-lg-start">
+                    <img width="50" src="imgs/icon.png" alt="">
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5>Resources</h5>
+                        </li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Join</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5>Members</h5>
+                        </li>
+                        <li><a href="">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5>Company</h5>
+                        </li>
+                        <li><a href="">About us
+                            </a></li>
+                        <li><a href="">Contact us
+                            </a></li>
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Terms</a></li>
+                        <li><a href="">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5>Quick Links</h5>
+                        </li>
+                        <li><a href="">GCSE Revision Notes</a></li>
+                        <li><a href="">IGCSE Revision Notes</a></li>
+                        <li><a href="">A Level Revision Notes</a></li>
+                        <li><a href="">Biology</a></li>
+                        <li><a href="">Chemistry</a></li>
+                        <li><a href="">Physics</a></li>
+                        <li><a href="">Maths</a></li>
+                        <li><a href="">2022 Advance Information</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row my-5 align-items-center">
+                <div class="col-md-6 col-lg-9 text-center text-md-start mb-5 mb-lg-0">
+                    <button class="btn btn-grad mx-auto mx-lg-0">Missing something? Tell us</button>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex justify-content-evenly justify-content-lg-start mb-4 mb-md-0">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl mx-lg-5"></i>
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                </div>
+            </div>
+            <ul class="list-unstyled">
+                <li>&copy; Copyright 2015-2023 Salem academy Ltd. All Rights Reserved.</li>
+                <li>IBO was not involved in the production of, and does not endorse, the resources created by Salem
+                    academy.
+                </li>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+/* global */
+
+:root {
+    --main-color: #0091E7;
+    --main-color-hover: #005b99;
+    --second-color: #00b67a;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h2 {
+    color: black;
+}
+
+/* modal  */
+
+.modal .close {
+    border: none;
+    color: #777;
+    background-color: white;
+}
+
+.modal .close svg {
+    transition: 0.5s;
+}
+
+.modal .close svg:hover {
+    color: var(--main-color);
+}
+
+.modal span.input-group-text {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* navbar */
+
+.btn-primary {
+    background-color: var(--main-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--main-color-hover);
+}
+
+.btn-link {
+    color: var(--main-color);
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item .list-group-item-action:hover {
+    color: var(--main-color);
+}
+
+/* header */
+
+header .text .main-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+@media (max-width:767px) {
+    header .text .main-title {
+        font-size: 2.5rem;
+    }
+
+}
+
+header .text span {
+    color: var(--main-color);
+}
+
+header .text .links li {
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: #D4DEFD;
+}
+
+@media (max-width:991px) {
+    header .text .links {
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+/* trust */
+
+.trust {
+    background-color: #FBFAFA;
+}
+
+.trust p span svg {
+    color: white;
+    padding: 0.2rem;
+    margin: 0 1px;
+    background-color: var(--second-color);
+}
+
+.trust p span svg:last-child {
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--second-color) 50%, #DCDCE6 50%);
+}
+
+
+.trust p>svg {
+    padding: 0.2rem;
+    color: var(--second-color);
+}
+
+.trust .img {
+    height: 150px;
+}
+
+/* steps */
+
+
+.steps li span {
+    color: black;
+}
+
+/* experts */
+
+.experts {
+    background-color: #FBFAFA;
+}
+
+.experts .expert li {
+    padding-left: 1rem;
+    text-align: left;
+}
+
+@media (max-width:767px) {
+    .experts .expert li {
+        padding-left: 2rem;
+    }
+}
+
+.experts .expert li svg {
+    color: var(--main-color);
+}
+
+.experts .expert img {
+    border-radius: 15px;
+}
+
+/* test */
+
+.test .stars {
+    color: goldenrod
+}
+
+
+.test .text {
+    position: relative;
+    border-radius: 15px;
+    background-color: #F3F0F0;
+}
+
+.test .text::after {
+    content: '';
+    position: absolute;
+    border-width: 20px;
+    border-style: solid;
+    bottom: -35px;
+    left: 50%;
+    transform: translatex(-50%);
+    border-color: #F3F0F0 transparent transparent transparent;
+}
+
+.test .text p {
+    margin: 0;
+}
+
+.test .img h4 {
+    color: black;
+    margin: 0.5rem 0 -0.25rem;
+}
+
+/* resources */
+
+.resources {
+    background-color: #EEF2FE;
+}
+
+.resources a {
+    color: white;
+    transition: 0.5s;
+    padding: 1rem 3rem;
+    border-radius: 25px;
+    background-color: var(--main-color);
+}
+
+.resources a:hover {
+    background-color: var(--main-color-hover);
+}
+
+/* sponsers */
+
+.sponsers {
+    position: relative;
+}
+
+.sponsers::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ccc;
+}
+
+/* plans */
+
+.plans .plan {
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(59, 68, 89, .16);
+}
+
+.plans .plan h3,
+.plans .plan h4 {
+    color: black;
+}
+
+.plans .plan p {
+    margin-top: -1rem;
+}
+
+.plans .plan li {
+    margin: 0.5rem 0;
+}
+
+.plans .plan svg {
+    color: var(--second-color);
+}
+
+.plans .plan a {
+    display: block;
+    margin-top: 2.5rem;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 25px;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: var(--main-color);
+}
+
+.plans .plan a:hover {
+    background-color: var(--main-color-hover);
+}
+
+@media (max-width:600px) {
+    .plans .plan {
+        width: 80%;
+    }
+}
+
+/* footer */
+
+footer h5 {
+    color: black;
+}
+
+footer a {
+    color: #777;
+    transition: 0.5s;
+}
+
+footer .btn-grad {
+    background-image: linear-gradient(to right, #de6161 0%, #2657eb 51%, #de6161 100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 25px;
+    display: block;
+    background-position: right center;
+}
+
+footer .btn-grad:hover {
+    background-position: left center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+footer svg {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer svg:hover {
+    color: var(--main-color);
+}
